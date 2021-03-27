@@ -47,6 +47,19 @@ git reset Head nbl.txt -> after deletation it will not even track
 
 5. Push to github
 
+git remote add origin https://github.com/nabilhasanbd/Git_demo.git -> sync the local repository with github
+
+git branch -m main -> renaming the master into main
+
+git push -u origin master / git push -u origin main -> push to github 
+
+
+
+
+
+
+
+
 
 
 
