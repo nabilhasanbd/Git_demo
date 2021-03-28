@@ -14,6 +14,8 @@ git add commands.txt
 
 git add -A / git add --all / git add .  -> all means the same
 
+git add * -> stage all without the deleted one 
+
 git reset -> to unstage 
 
 2. commit
@@ -22,6 +24,7 @@ git commit # after this you have to type comment to commit then press "escape" t
 
 git commit -m "comment" # easier
 
+git reset HEAD~ -> rollback to stage / uncommit 
 
 3. Log
 
@@ -45,7 +48,19 @@ git show f637962 -> it will show the change of the stage f637962
 
 git rm nbl.txt -> remove nbl.txt 
 
+git rm nbl.txt -f -> It will remove forcefully 
+
 git reset Head nbl.txt -> after deletation it will not even track 
+
+git rm chached nbr.txt ->
+
+#if you delete manally from local , then you just delete then -> git add .
+
+git reset -> it will rollback but not restore 
+
+git reset --hard -> it will rollback and restore the deleted file.
+
+
 
 5. Push to github
 
@@ -54,6 +69,16 @@ git remote add origin https://github.com/nabilhasanbd/Git_demo.git -> sync the l
 git branch -m main -> renaming the master into main
 
 git push -u origin master / git push -u origin main -> push to github 
+
+
+6. Branching
+
+git branch -> show branch
+
+git branch branch2 -> create branch named branch2
+
+git checkout branch2 -> switch to branch2
+
 
 
 
