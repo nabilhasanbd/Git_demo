@@ -79,6 +79,10 @@ git branch branch2 -> create branch named branch2
 
 git checkout branch2 -> switch to branch2
 
+git branch -d branch2 -> delete branch2
+
+git push origin --delete branch2 -> delete branch remotely
+
 
 7. Merge
 
