@@ -1,5 +1,0 @@
-Yess !!
-
-If we use git add . it will stage only the current folder 
-
-but git add --all will stage all files and subfloders .
