@@ -79,10 +79,15 @@ git branch branch2 -> create branch named branch2
 
 git checkout branch2 -> switch to branch2
 
-7. Merge 
+
+7. Merge
+
+git merge master -m "Merging dev with master"
 
 git merge master -m "Merging dev with master" 
+
 git merge dev -> Everything of the dev branch will be merged with master
+
 
 
 
