@@ -70,6 +70,10 @@ git branch -m main -> renaming the master into main
 
 git push -u origin master / git push -u origin main -> push to github 
 
+git push origin master -> sending the origin master branch to remote repo
+
+git push origin dev /  git push origin staging -> sending the origin dev/staging branch to remote repo
+
 
 6. Branching
 
@@ -92,19 +96,14 @@ git merge master -m "Merging dev with master"
 
 git merge dev -> Everything of the dev branch will be merged with master
 
-8. Push
 
-git push origin master -> sending the origin master branch to remote repo
-
-git push origin dev /  git push origin staging -> sending the origin dev/staging branch to remote repo
-
-9. Fetch
+8. Fetch
 
 git fetch -> Local repo informed that the change from remote repo
 
 # after fetching if we write -> git merge then we will be able to see the change we made in remote repo
 
-10. Pull
+9. Pull
 
 # pull = git fetch + git merge 
 
