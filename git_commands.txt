@@ -61,21 +61,7 @@ git reset -> it will rollback but not restore
 git reset --hard -> it will rollback and restore the deleted file.
 
 
-
-5. Push to github
-
-git remote add origin https://github.com/nabilhasanbd/Git_demo.git -> sync the local repository with github
-
-git branch -m main -> renaming the master into main
-
-git push -u origin master / git push -u origin main -> push to github 
-
-git push origin master -> sending the origin master branch to remote repo
-
-git push origin dev /  git push origin staging -> sending the origin dev/staging branch to remote repo
-
-
-6. Branching
+5. Branching
 
 git branch -> show branch
 
@@ -86,6 +72,19 @@ git checkout branch2 -> switch to branch2
 git branch -d branch2 -> delete branch2
 
 git push origin --delete branch2 -> delete branch remotely
+
+
+6. Push to github
+
+git remote add origin https://github.com/nabilhasanbd/Git_demo.git -> sync the local repository with github
+
+git branch -m main -> renaming the master into main
+
+git push -u origin master / git push -u origin main -> push to github for the first time
+
+git push origin master -> sending the origin master branch to remote repo
+
+git push origin dev /  git push origin staging -> sending the origin dev/staging branch to remote repo
 
 
 7. Merge
