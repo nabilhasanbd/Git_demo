@@ -91,8 +91,6 @@ git push origin dev /  git push origin staging -> sending the origin dev/staging
 
 git merge master -m "Merging dev with master"
 
-git merge master -m "Merging dev with master" 
-
 git merge dev -> Everything of the dev branch will be merged with master
 
 
@@ -106,7 +104,10 @@ git fetch -> Local repo informed that the change from remote repo
 
 # pull = git fetch + git merge 
 
+# if anyone makes changes and merged to remote branch and now you need the changed code .  
+
 git pull 
+
 
 
 
