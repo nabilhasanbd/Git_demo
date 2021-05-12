@@ -73,6 +73,12 @@ git branch -d branch2 -> delete branch2
 
 git push origin --delete branch2 -> delete branch remotely
 
+// delete branch locally
+git branch -d localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName
+
 
 6. Push to github
 
@@ -93,6 +99,11 @@ git merge master -m "Merging dev with master"
 
 git merge dev -> Everything of the dev branch will be merged with master
 
+// If i am in nabil-dev branch and i want the changes made in dev 
+git merge dev 
+
+// if I am in "nabil-dev" and i want to merge my branch with "dev" => git merge dev
+// then I will get the extraa things from "dev" branch 
 
 8. Fetch
 
