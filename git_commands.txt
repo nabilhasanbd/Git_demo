@@ -26,6 +26,8 @@ git commit -m "comment" # easier
 
 git reset HEAD~ -> rollback to stage / uncommit 
 
+git rebase -i HEAD~3 -> merges 3 commits in one commit
+
 3. Log
 
 git log -> It will show the chnages we made
@@ -118,28 +120,3 @@ git fetch -> Local repo informed that the change from remote repo
 # if anyone makes changes and merged to remote branch and now you need the changed code .  
 
 git pull 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
