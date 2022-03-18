@@ -1,0 +1,13 @@
+# git squash -> combining multiple commit into one
+
+git rebase -i HEAD~3 -> it will combine 3 commits in one
+
+	then it will take you to page where you will squash the commits with the latest one.
+
+Esc :wq -> to save the commits
+	
+	then it will take you to another page where you will comment out the commits exept the picked one
+
+i -> to edit
+
+Esc :wq -> to save
