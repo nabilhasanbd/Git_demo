@@ -1,3 +1,5 @@
+1. Squash
+
 # git squash -> combining multiple commit into one
 
 git rebase -i HEAD~3 -> it will combine 3 commits in one

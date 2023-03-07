@@ -1,4 +1,4 @@
-3. Log
+1. Log
 
 git log -> It will show the chnages we made
 
@@ -16,7 +16,7 @@ git diff f637962 c2324353 -> will show the changes comparison of these two stage
 
 git show f637962 -> it will show the change of the stage f637962 
 
-4 . Remove
+2. Remove
 
 git rm nbl.txt -> remove nbl.txt 
 

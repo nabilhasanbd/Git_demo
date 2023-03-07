@@ -1,4 +1,4 @@
-5. Branching
+1. Branching
 
 git branch -> show branch
 

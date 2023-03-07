@@ -1,4 +1,4 @@
-7. Merge
+1. Merge
 
 git merge master -m "Merging dev with master"
 

@@ -1,0 +1,13 @@
+1. Fetch
+
+git fetch -> Local repo informed that the change from remote repo
+
+# after fetching if we write -> git merge then we will be able to see the change we made in remote repo
+
+2. Pull
+
+# pull = git fetch + git merge 
+
+# if anyone makes changes and merged to remote branch and now you need the changed code .  
+
+git pull 

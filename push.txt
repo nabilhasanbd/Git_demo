@@ -1,4 +1,4 @@
-6. Push to github
+1. Push to github
 
 git remote add origin https://github.com/nabilhasanbd/Git_demo.git -> sync the local repository with github
 
