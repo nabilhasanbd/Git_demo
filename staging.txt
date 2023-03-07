@@ -1,0 +1,19 @@
+1. Staging 
+ 
+git init -> to make a folder into repo
+
+git config --global user.name "Nabil"
+git config --global user.email "nabil.uiu.bd@gmail.com"
+
+git config user.name "Nabil"
+git config user.email "nabil.uiu.bd@gmail.com"
+
+git status
+
+git add commands.txt
+
+git add -A / git add --all / git add .  -> all means the same
+
+git add * -> stage all without the deleted one 
+
+git reset -> to unstage 

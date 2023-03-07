@@ -1,0 +1,11 @@
+6. Push to github
+
+git remote add origin https://github.com/nabilhasanbd/Git_demo.git -> sync the local repository with github
+
+git branch -m main -> renaming the master into main
+
+git push -u origin master / git push -u origin main -> push to github for the first time
+
+git push origin master -> sending the origin master branch to remote repo
+
+git push origin dev /  git push origin staging -> sending the origin dev/staging branch to remote repo

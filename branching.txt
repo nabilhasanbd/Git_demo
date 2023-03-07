@@ -1,0 +1,17 @@
+5. Branching
+
+git branch -> show branch
+
+git branch branch2 -> create branch named branch2
+
+git checkout branch2 -> switch to branch2
+
+git branch -d branch2 -> delete branch2
+
+git push origin --delete branch2 -> delete branch remotely
+
+// delete branch locally
+git branch -d localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName

@@ -1,0 +1,33 @@
+3. Log
+
+git log -> It will show the chnages we made
+
+git log -p -2 -> it will show the last 2 changes 
+
+git log --oneline -> it will show the changes in one line
+
+git checkout f637962 -> f637962 ei commit e niye jabe 
+
+git checkout master -> Master branch e chole jabo 
+
+git diff -> shows the changes with the last stage 
+
+git diff f637962 c2324353 -> will show the changes comparison of these two stage.
+
+git show f637962 -> it will show the change of the stage f637962 
+
+4 . Remove
+
+git rm nbl.txt -> remove nbl.txt 
+
+git rm nbl.txt -f -> It will remove forcefully 
+
+git reset Head nbl.txt -> after deletation it will not even track 
+
+git rm chached nbr.txt ->
+
+#if you delete manally from local , then you just delete then -> git add .
+
+git reset -> it will rollback but not restore 
+
+git reset --hard -> it will rollback and restore the deleted file.
